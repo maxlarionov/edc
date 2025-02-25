@@ -1,0 +1,553 @@
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.logo {
+  display: flex;
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 125px;
+}
+
+.logo-text {
+  margin-top: 30px;
+  margin-right: 10px;
+  flex: 1 1 auto;
+}
+
+.logo-title {
+  font-family: "Advent Sans", sans-serif;
+  color: #255760;
+  font-size: 24px;
+  width: 226px;
+  line-height: 120%;
+}
+
+.logo-subtitle {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+  color: #255760;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.menu {
+  margin-right: 10px;
+}
+@media (max-width: 940px) {
+  .menu {
+    display: none;
+  }
+}
+
+.nav-link {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  margin-left: 30px;
+  color: #000000;
+  text-decoration: none;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.hero-content {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+@media (max-width: 940px) {
+  .hero-content {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.hero-text {
+  margin-top: 100px;
+  margin-left: 30px;
+  flex: 1;
+}
+@media (max-width: 940px) {
+  .hero-text {
+    margin-top: 40px;
+    padding: 0 20px;
+    margin-left: 0px;
+    flex: initial;
+  }
+}
+
+.bible-text {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  line-height: 135%;
+  margin-bottom: 30px;
+  max-width: 416px;
+}
+
+.bible-link {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.hero-highlight h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  max-width: 470px;
+  margin-bottom: 20px;
+  color: #b63f41;
+}
+@media (max-width: 940px) {
+  .hero-highlight h1 {
+    font-size: 24px;
+  }
+}
+.hero-highlight .donation_button {
+  display: inline-block;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #b63f41;
+  padding: 12px 44px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  border: solid transparent 1px;
+}
+.hero-highlight .donation_button:hover {
+  background-color: #ffffff;
+  color: #b63f41;
+  border: solid #b63f41 1px;
+}
+.hero-highlight p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #707070;
+  max-width: 300px;
+}
+.hero-highlight p a {
+  color: #707070;
+}
+
+.hero-picture {
+  margin-top: 60px;
+}
+@media (max-width: 940px) {
+  .hero-picture {
+    display: none;
+  }
+}
+
+.hero-img {
+  margin-right: 30px;
+}
+
+.publichna-oferta-button {
+  text-decoration: none;
+}
+
+.publichna-oferta-button:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.directions-container {
+  background-color: #f1f1f1;
+  margin-top: 100px;
+}
+@media (max-width: 940px) {
+  .directions-container {
+    margin-top: 60px;
+  }
+}
+
+.directions-content {
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.directions-content h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #255760;
+}
+
+.directions-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.dir-item-img {
+  width: 100px;
+  height: 100px;
+}
+
+.dir-item-text {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  max-width: 215px;
+  margin-top: 10px;
+}
+
+.directions-detail {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 785px;
+  margin: 0 auto;
+}
+
+.bank-details {
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+  padding: 90px 10px;
+}
+.bank-details h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #255760;
+  margin-bottom: 40px;
+}
+
+.accordion {
+  text-align: left;
+  border: 1px solid #707070;
+  border-radius: 20px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.accordion li {
+  max-width: 100%;
+  list-style: none;
+  padding: 15px 20px 15px 20px;
+}
+
+.diviner {
+  display: block;
+}
+
+.diviner::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #707070;
+}
+
+.accordion label {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #255760;
+  cursor: pointer;
+  position: relative;
+  margin-left: 30px;
+}
+
+label::before {
+  content: "";
+  background-image: url("/images/arrow-right.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  left: -30px;
+  top: 3px;
+  position: absolute;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+.accordion .content {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  padding: 15 0px;
+  line-height: 26px;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.accordion .content .content-bold {
+  font-weight: 700;
+}
+
+.accordion input[type=radio]:checked + label + .content {
+  max-height: 100%;
+  padding: 10px 10px 20px;
+}
+
+.accordion input[type=radio]:checked + label::before {
+  background-image: url("/images/arrow-down.png");
+  left: -30px;
+  top: 3px;
+}
+
+.about-container {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #f1f1f1;
+}
+
+.about-content {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.about-content h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #255760;
+  margin-bottom: 40px;
+}
+@media (max-width: 940px) {
+  .about-content h2 {
+    margin-bottom: 10px;
+  }
+}
+
+.about-description {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+@media (max-width: 940px) {
+  .about-description {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 10px;
+    align-items: center;
+  }
+}
+
+.about-img {
+  width: 254px;
+  height: 254px;
+}
+@media (max-width: 940px) {
+  .about-img {
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+  }
+}
+
+.about-text {
+  text-align: left;
+  max-width: 580px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.contacts-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.contacts-container h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #255760;
+  margin-bottom: 40px;
+}
+
+.contacts-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 940px) {
+  .contacts-content {
+    flex-direction: column;
+    padding: 10px;
+    max-width: 100%;
+    align-items: center;
+  }
+}
+@media (max-width: 940px) {
+  .contacts-content iframe {
+    width: 100%;
+  }
+}
+
+.contacts-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.contact-description {
+  display: flex;
+}
+.contact-description div {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.contact-description h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #255760;
+  margin-bottom: 10px;
+}
+.contact-description p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 320px;
+  line-height: 140%;
+}
+
+.contact-img {
+  width: 60px;
+  height: 60px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f1f1f1;
+}
+
+.footer-content {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #707070;
+}
+
+.header-content-p-offerta {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 940px) {
+  .header-content-p-offerta {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.header-content-p-offerta .logo {
+  margin-bottom: 20px;
+}
+
+.nav-back-link {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  margin-left: 30px;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+}
+.nav-back-link:hover {
+  text-decoration: underline;
+}
+
+.back-button-img {
+  position: absolute;
+  left: -30px;
+  top: 0px;
+  width: 30px;
+  height: 30px;
+  transform: rotate(180deg);
+}
+
+.p-ofeta-content {
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.p-ofeta-content h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #255760;
+  margin-bottom: 20px;
+}
+
+.p-oferta-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 720px;
+  margin: 0 auto;
+}
+.p-oferta-text h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.p-oferta-text p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  margin-bottom: 20px;
+}
+.p-oferta-text ol {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.p-oferta-text li {
+  list-style-type: decimal;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  margin-bottom: 20px;
+}
+.p-oferta-text .text-bold {
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("../fonts/MyFont.woff2") format("woff2"), url("../fonts/MyFont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}/*# sourceMappingURL=styles.css.map */

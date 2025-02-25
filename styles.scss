@@ -1,0 +1,21 @@
+@import "components-styles/header";
+@import "components-styles/hero";
+@import "components-styles/directions";
+@import "components-styles/bank-details";
+@import "components-styles/about";
+@import "components-styles/contacts";
+@import "components-styles/footer";
+@import "components-styles/publichna-oferta";
+
+@font-face {
+	font-family: "MyFont";
+	src:
+		url("../fonts/MyFont.woff2") format("woff2"),
+		url("../fonts/MyFont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	scroll-behavior: smooth;
+}

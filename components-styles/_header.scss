@@ -1,0 +1,65 @@
+.header-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1200px;
+
+	@media (max-width: 940px) {
+		justify-content: center;
+	}
+}
+
+.logo {
+	display: flex;
+	text-decoration: none;
+}
+
+.logo-img {
+	width: 125px;
+}
+
+.logo-text {
+	margin-top: 30px;
+	margin-right: 10px;
+	flex: 1 1 auto;
+
+	@media (max-width: 940px) {
+		flex: initial;
+	}
+}
+
+.logo-title {
+	font-family: "Advent Sans", sans-serif;
+	color: #255760;
+	font-size: 24px;
+	width: 226px;
+	line-height: 120%;
+}
+
+.logo-subtitle {
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 300;
+	color: #255760;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.menu {
+	margin-right: 10px;
+	@media (max-width: 940px) {
+		display: none;
+	}
+}
+
+.nav-link {
+	font-family: "Noto Sans", sans-serif;
+	font-size: 20px;
+	margin-left: 30px;
+	color: #000000;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}

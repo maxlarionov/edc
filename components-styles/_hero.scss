@@ -1,0 +1,109 @@
+.hero-content {
+	display: flex;
+	margin: 0 auto;
+	max-width: 1200px;
+
+	@media (max-width: 940px) {
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.hero-text {
+	margin-top: 100px;
+	margin-left: 30px;
+	flex: 1;
+
+	@media (max-width: 940px) {
+		margin-top: 40px;
+		padding: 0 20px;
+		margin-left: 0px;
+		flex: initial;
+	}
+}
+
+.bible-text {
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+	color: #000000;
+	font-size: 16px;
+	line-height: 135%;
+	margin-bottom: 30px;
+	max-width: 416px;
+}
+
+.bible-link {
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.hero-highlight {
+	h1 {
+		font-family: "Noto Sans", sans-serif;
+		font-weight: 700;
+		font-size: 28px;
+		max-width: 470px;
+		margin-bottom: 20px;
+		color: #b63f41;
+
+		@media (max-width: 940px) {
+			font-size: 24px;
+		}
+	}
+
+	.donation_button {
+		display: inline-block;
+		font-family: "Noto Sans", sans-serif;
+		font-weight: 700;
+		font-size: 20px;
+		background-color: #b63f41;
+		padding: 12px 44px;
+		color: #ffffff;
+		text-decoration: none;
+		border-radius: 20px;
+		margin-bottom: 20px;
+		transition: 0.3s;
+		border: solid transparent 1px;
+
+		&:hover {
+			background-color: #ffffff;
+			color: #b63f41;
+			border: solid #b63f41 1px;
+		}
+	}
+
+	p {
+		font-family: "Noto Sans", sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+		color: #707070;
+		max-width: 300px;
+
+		a {
+			color: #707070;
+		}
+	}
+}
+
+.hero-picture {
+	margin-top: 60px;
+
+	@media (max-width: 940px) {
+		display: none;
+	}
+}
+
+.hero-img {
+	margin-right: 30px;
+}
+
+.publichna-oferta-button {
+	text-decoration: none;
+}
+
+.publichna-oferta-button:hover {
+	text-decoration: underline;
+	color: #000000;
+}

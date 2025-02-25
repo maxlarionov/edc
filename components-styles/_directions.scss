@@ -1,0 +1,53 @@
+.directions-container {
+	background-color: #f1f1f1;
+	margin-top: 100px;
+
+	@media (max-width: 940px) {
+		margin-top: 60px;
+	}
+}
+
+.directions-content {
+	margin: 0 auto;
+	max-width: 1200px;
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 90px;
+
+	h2 {
+		font-family: "Noto Sans", sans-serif;
+		font-weight: 700;
+		font-size: 28px;
+		color: #255760;
+	}
+}
+
+.directions-items {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: space-evenly;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.dir-item-img {
+	width: 100px;
+	height: 100px;
+}
+
+.dir-item-text {
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	max-width: 215px;
+	margin-top: 10px;
+}
+
+.directions-detail {
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	max-width: 785px;
+	margin: 0 auto;
+}

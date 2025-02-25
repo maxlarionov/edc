@@ -1,0 +1,56 @@
+.about-container {
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-color: #f1f1f1;
+}
+
+.about-content {
+	margin: 0 auto;
+	max-width: 1200px;
+
+	h2 {
+		font-family: "Noto Sans", sans-serif;
+		font-weight: 700;
+		font-size: 28px;
+		color: #255760;
+		margin-bottom: 40px;
+
+		@media (max-width: 940px) {
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.about-description {
+	display: flex;
+	justify-content: center;
+	gap: 60px;
+
+	@media (max-width: 940px) {
+		flex-direction: column;
+		gap: 20px;
+		padding: 0px 10px;
+		align-items: center;
+	}
+}
+
+.about-img {
+	width: 254px;
+	height: 254px;
+
+	@media (max-width: 940px) {
+		margin: 0 auto;
+		width: 140px;
+		height: 140px;
+	}
+}
+
+.about-text {
+	text-align: left;
+	max-width: 580px;
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+}

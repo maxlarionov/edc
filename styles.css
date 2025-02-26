@@ -269,7 +269,7 @@
 
 label::before {
   content: "";
-  background-image: url("/images/arrow-right.png");
+  background-image: url("/edc/images/arrow-right.png");
   background-size: contain;
   background-repeat: no-repeat;
   display: inline-block;
@@ -305,7 +305,7 @@ input[type=radio] {
 }
 
 .accordion input[type=radio]:checked + label::before {
-  background-image: url("/images/arrow-down.png");
+  background-image: url("/edc/images/arrow-down.png");
   left: -30px;
   top: 3px;
 }

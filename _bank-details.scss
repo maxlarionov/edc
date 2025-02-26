@@ -1,0 +1,94 @@
+.bank-details {
+	margin: 0 auto;
+	max-width: 1200px;
+	text-align: center;
+	padding: 90px 10px;
+
+	h2 {
+		font-family: "Noto Sans", sans-serif;
+		font-weight: 700;
+		font-size: 28px;
+		color: #255760;
+		margin-bottom: 40px;
+	}
+}
+
+.accordion {
+	text-align: left;
+	border: 1px solid #707070;
+	border-radius: 20px;
+	// padding: 15px 20px;
+	max-width: 720px;
+	margin: 0 auto;
+
+	& li {
+		max-width: 100%;
+		list-style: none;
+		padding: 15px 20px 15px 20px;
+	}
+}
+
+.diviner {
+	display: block;
+}
+
+.diviner::after {
+	content: "";
+	display: block;
+	height: 1px;
+	background-color: #707070;
+}
+
+.accordion label {
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #255760;
+	cursor: pointer;
+	position: relative;
+	margin-left: 30px;
+}
+
+label::before {
+	content: "";
+	background-image: url("/edc/images/arrow-right.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	left: -30px;
+	top: 3px;
+	position: absolute;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+.accordion .content {
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #000000;
+	padding: 15 0px;
+	line-height: 26px;
+	max-height: 0;
+	overflow: hidden;
+	transition: 0.5s;
+
+	& .content-bold {
+		font-weight: 700;
+	}
+}
+
+.accordion input[type="radio"]:checked + label + .content {
+	max-height: 100%;
+	padding: 10px 10px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::before {
+	background-image: url("/edc/images/arrow-down.png");
+	left: -30px;
+	top: 3px;
+}
